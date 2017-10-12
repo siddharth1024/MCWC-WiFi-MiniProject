@@ -1,0 +1,14 @@
+1. Update Libraries and Install Build-Essential Package
+	sudo apt-get update
+	sudo apt-get install build-essential
+
+2. Install libmnl libraries
+	sudo apt-get install libmnl0 libmnl-dev
+
+3. Install Git (Optional)
+	sudo apt-get install git
+	git clone https://github.com/siddharth1024/MCWC-WiFi-MiniProject.git
+
+4. Compile and Execute
+	gcc wifi_scan_all.c -lmnl -o wifi_scan_all
+	sudo ./wifi_scan_all wlp3s0

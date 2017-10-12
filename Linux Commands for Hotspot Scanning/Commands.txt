@@ -1,0 +1,5 @@
+Using iw:
+	sudo iw dev wlp3s0 scan | grep SSID
+
+Using nmcli:
+	nmcli dev wifi
